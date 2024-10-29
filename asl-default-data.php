@@ -1,0 +1,46 @@
+{
+<?php
+$dir = dirname($_SERVER['REQUEST_URI'])."/";
+?>
+ "resultCount":1,
+ "results": [
+{"kind":"software",
+ "features":["iosUniversal"], 
+"supportedDevices":["iPhone4S", "iPadFourthGen4G", "iPad2Wifi", "iPodTouchFifthGen", "iPad23G", "iPadFourthGen", "iPhone5c", "iPhone-3GS", "iPadMini", "iPodTouchourthGen", "iPadThirdGen4G", "iPhone5s", "iPhone4", "iPadThirdGen", "iPadMini4G", "iPhone5"],
+ "isGameCenterEnabled":false, 
+  "screenshotUrls":["http://placekitten.com/1136/1136", "http://placekitten.com/1136/1136", "http://placekitten.com/1136/1136", "http://placekitten.com/1136/1136"],
+  "ipadScreenshotUrls":["http://placekitten.com/480/480", "http://placekitten.com/480/480", "http://placekitten.com/480/480", "http://placekitten.com/480/480", "http://placekitten.com/480/480"],
+  "artworkUrl60":"http://placekitten.com/57/57", 
+  "artworkUrl512":"http://placekitten.com/1024/1024", 
+  "artistViewUrl":"", 
+  "artistId":284910353,
+  "artistName":"App Creator Not Found",
+  "price":0.00, 
+  "version":"2.1.0", 
+  "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ut volutpat diam. Etiam sit amet adipiscing est. Morbi scelerisque nisi sem, a mollis nibh lobortis a.   \n\nFEATURES:\n\u2022 Nulla molestie purus at ligula dapibus elementum. \n\u2022 Nulla nunc justo, dictum nec nibh et, lobortis laoreet nunc.\n\u2022 Nullam non purus auctor, ultricies urna a, condimentum lectus.", 
+  "currency":"USD", 
+  "genres":["Unknown", "Not Found"], 
+  "genreIds":["0000", "0000"], 
+  "releaseDate":"2013-04-20T07:00:00Z", 
+  "sellerName":"Seller Not Found", 
+  "bundleId":"com.adamdionne.thisisntfound", 
+  "trackId":"000000000", 
+  "trackName":"App Not Found", 
+  "primaryGenreName":"Unknown", 
+  "primaryGenreId":"0000", 
+  "releaseNotes":"New in v2.1:\n\u2022 Cras nec neque ut felis scelerisque cursus. Donec sed ultrices ipsum, ac lacinia velit. Vivamus tincidunt in elit id dignissim. Suspendisse sed diam ultrices, gravida urna eu, ullamcorper neque.  \n\u2022 Donec adipiscing ipsum vulputate suscipit iaculis. \n\u2022 Praesent enim leo, tincidunt at magna vitae, vulputate lobortis ipsum!", 
+  "formattedPrice":"Free", 
+  "wrapperType":"software", 
+  "trackCensoredName":"Kittenz", 
+  "languageCodesISO2A":["NB", "CS", "DA", "NL", "EN", "FI", "FR", "DE", "IT", "PL", "PT", "ES", "SV", "TR"], 
+  "fileSizeBytes":"20692540", 
+  "contentAdvisoryRating":"12+", 
+  "averageUserRatingForCurrentVersion":4.5, 
+  "userRatingCountForCurrentVersion":1739, 
+  "artworkUrl100":"<?php echo $dir."/defaults/artwork100.png"; ?>",
+  "trackViewUrl":"",
+  "trackContentRating":"12+", 
+  "averageUserRating":3.5, 
+  "userRatingCount":184375}]
+}
+
